@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Nov 15 15:05:57 2019
+# Process ID: 30796
+# Current directory: D:/Projects/probation training/linux laptop ip_repo/ip_repo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26120 D:\Projects\probation training\linux laptop ip_repo\ip_repo\edit_Azimuth_test_axi_v1_0.xpr
+# Log file: D:/Projects/probation training/linux laptop ip_repo/ip_repo/vivado.log
+# Journal file: D:/Projects/probation training/linux laptop ip_repo/ip_repo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Projects/probation training/linux laptop ip_repo/ip_repo/edit_Azimuth_test_axi_v1_0.xpr}
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file {D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/component.xml}
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+set_property core_revision 9 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path {d:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0}
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {d:\Projects\probation training\linux laptop ip_repo\ip_repo\Azimuth_test_axi_1.0\Xilinx.com_Xilinx_Azimuth_test_axi_1.0.zip} [ipx::current_core]

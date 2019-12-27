@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../Azimuth_test_axi_1.0/src/mult_gen_0/sim/mult_gen_0.vhd" \
+
+nosort

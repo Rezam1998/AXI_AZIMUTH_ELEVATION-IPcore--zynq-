@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Nov 15 15:43:48 2019
+# Process ID: 26548
+# Current directory: D:/Projects/probation training/linux laptop ip_repo/ip_repo/edit_Azimuth_test_axi_v1_0.runs/cordic_0_synth_1
+# Command line: vivado.exe -log cordic_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cordic_0.tcl
+# Log file: D:/Projects/probation training/linux laptop ip_repo/ip_repo/edit_Azimuth_test_axi_v1_0.runs/cordic_0_synth_1/cordic_0.vds
+# Journal file: D:/Projects/probation training/linux laptop ip_repo/ip_repo/edit_Azimuth_test_axi_v1_0.runs/cordic_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source cordic_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is d:/Projects/probation training/linux laptop ip_repo/ip_repo/edit_Azimuth_test_axi_v1_0.cache/ip 
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP cordic_0, cache-ID = d1600d7c63ec7157.
+INFO: [Common 17-206] Exiting Vivado at Fri Nov 15 15:44:04 2019...

@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER Azimuth_test
+	OPTION supported_peripherals = (Azimuth_test);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = Azimuth_test;
+END DRIVER

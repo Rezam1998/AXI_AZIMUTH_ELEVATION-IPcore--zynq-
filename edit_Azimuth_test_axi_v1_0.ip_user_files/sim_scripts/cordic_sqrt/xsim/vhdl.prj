@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../Azimuth_test_axi_1.0/src/cordic_sqrt/sim/cordic_sqrt.vhd" \
+
+nosort

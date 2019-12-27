@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Nov 13 13:41:33 2019
+# Process ID: 13596
+# Current directory: D:/Projects/probation training/linux laptop ip_repo/ip_repo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22488 D:\Projects\probation training\linux laptop ip_repo\ip_repo\edit_Azimuth_test_axi_v1_0.xpr
+# Log file: D:/Projects/probation training/linux laptop ip_repo/ip_repo/vivado.log
+# Journal file: D:/Projects/probation training/linux laptop ip_repo/ip_repo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Projects/probation training/linux laptop ip_repo/ip_repo/edit_Azimuth_test_axi_v1_0.xpr}
+INFO: [Project 1-313] Project file moved from '/home/reza/REZA/ip_repo' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'cordic_0' is locked:
+* Current project part 'xc7z020clg400-1' and the part 'xc7a200tfbg484-2' used to customize the IP 'cordic_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'div_gen_0' is locked:
+* Current project part 'xc7z020clg400-1' and the part 'xc7a200tfbg484-2' used to customize the IP 'div_gen_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'cordic_1' is locked:
+* Current project part 'xc7z020clg400-1' and the part 'xc7a200tfbg484-2' used to customize the IP 'cordic_1' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'cordic_sqrt' is locked:
+* Current project part 'xc7z020clg400-1' and the part 'xc7a200tfbg484-2' used to customize the IP 'cordic_sqrt' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'mult_gen_0' is locked:
+* Current project part 'xc7z020clg400-1' and the part 'xc7a200tfbg484-2' used to customize the IP 'mult_gen_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'mult_gen_1' is locked:
+* Current project part 'xc7z020clg400-1' and the part 'xc7a200tfbg484-2' used to customize the IP 'mult_gen_1' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:19 . Memory (MB): peak = 762.297 ; gain = 171.484
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 13 13:47:31 2019...

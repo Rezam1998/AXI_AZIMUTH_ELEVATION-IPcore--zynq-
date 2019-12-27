@@ -1,0 +1,1 @@
+cordic_1.vhd,vhdl,xil_defaultlib,../../../../Azimuth_test_axi_1.0/src/cordic_1/sim/cordic_1.vhd,

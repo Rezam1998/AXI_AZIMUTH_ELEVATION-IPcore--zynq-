@@ -1,0 +1,487 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Nov 16 23:51:36 2019
+# Process ID: 27468
+# Current directory: D:/Projects/probation training/linux laptop ip_repo/ip_repo/edit_Azimuth_test_axi_v1_0.runs/synth_1
+# Command line: vivado.exe -log Azimuth_test_axi_v1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Azimuth_test_axi_v1_0.tcl
+# Log file: D:/Projects/probation training/linux laptop ip_repo/ip_repo/edit_Azimuth_test_axi_v1_0.runs/synth_1/Azimuth_test_axi_v1_0.vds
+# Journal file: D:/Projects/probation training/linux laptop ip_repo/ip_repo/edit_Azimuth_test_axi_v1_0.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Azimuth_test_axi_v1_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is d:/Projects/probation training/linux laptop ip_repo/ip_repo/edit_Azimuth_test_axi_v1_0.cache/ip 
+Command: synth_design -top Azimuth_test_axi_v1_0 -part xc7z020clg400-1
+Starting synth_design
+WARNING: [Vivado_Tcl 4-393] The 'Synthesis' target of the following IPs are stale, please generate the output products using the generate_target or synth_ip command before running synth_design.
+D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/cordic_0/cordic_0.xci
+D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/div_gen_0/div_gen_0.xci
+D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/cordic_1/cordic_1.xci
+D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/cordic_sqrt/cordic_sqrt.xci
+D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/mult_gen_0/mult_gen_0.xci
+D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/mult_gen_1/mult_gen_1.xci
+
+INFO: [IP_Flow 19-2162] IP 'cordic_0' is locked:
+* Current project part 'xc7z020clg400-1' and the part 'xc7a200tfbg484-2' used to customize the IP 'cordic_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'div_gen_0' is locked:
+* Current project part 'xc7z020clg400-1' and the part 'xc7a200tfbg484-2' used to customize the IP 'div_gen_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'cordic_1' is locked:
+* Current project part 'xc7z020clg400-1' and the part 'xc7a200tfbg484-2' used to customize the IP 'cordic_1' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'cordic_sqrt' is locked:
+* Current project part 'xc7z020clg400-1' and the part 'xc7a200tfbg484-2' used to customize the IP 'cordic_sqrt' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'mult_gen_0' is locked:
+* Current project part 'xc7z020clg400-1' and the part 'xc7a200tfbg484-2' used to customize the IP 'mult_gen_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'mult_gen_1' is locked:
+* Current project part 'xc7z020clg400-1' and the part 'xc7a200tfbg484-2' used to customize the IP 'mult_gen_1' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 33228 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 468.539 ; gain = 94.953
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Azimuth_test_axi_v1_0' [D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/hdl/Azimuth_test_axi_v1_0.vhd:51]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'Azimuth_test_axi_v1_0_S00_AXI' declared at 'D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/hdl/Azimuth_test_axi_v1_0_S00_AXI.vhd:5' bound to instance 'Azimuth_test_axi_v1_0_S00_AXI_inst' of component 'Azimuth_test_axi_v1_0_S00_AXI' [D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/hdl/Azimuth_test_axi_v1_0.vhd:91]
+INFO: [Synth 8-638] synthesizing module 'Azimuth_test_axi_v1_0_S00_AXI' [D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/hdl/Azimuth_test_axi_v1_0_S00_AXI.vhd:88]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-226] default block is never used [D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/hdl/Azimuth_test_axi_v1_0_S00_AXI.vhd:240]
+INFO: [Synth 8-226] default block is never used [D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/hdl/Azimuth_test_axi_v1_0_S00_AXI.vhd:370]
+WARNING: [Synth 8-5640] Port 'locked' is missing in component declaration [D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/hdl/Azimuth_test_axi_v1_0_S00_AXI.vhd:123]
+INFO: [Synth 8-3491] module 'Azimuth' declared at 'D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/Azimuth.vhd:6' bound to instance 'Azimuth_0' of component 'Azimuth' [D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/hdl/Azimuth_test_axi_v1_0_S00_AXI.vhd:404]
+INFO: [Synth 8-638] synthesizing module 'Azimuth' [D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/Azimuth.vhd:20]
+INFO: [Synth 8-3491] module 'cordic_0' declared at 'D:/Projects/probation training/linux laptop ip_repo/ip_repo/edit_Azimuth_test_axi_v1_0.runs/synth_1/.Xil/Vivado-27468-Reza/realtime/cordic_0_stub.vhdl:5' bound to instance 'sin_cos' of component 'cordic_0' [D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/Azimuth.vhd:153]
+INFO: [Synth 8-638] synthesizing module 'cordic_0' [D:/Projects/probation training/linux laptop ip_repo/ip_repo/edit_Azimuth_test_axi_v1_0.runs/synth_1/.Xil/Vivado-27468-Reza/realtime/cordic_0_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'div_gen_0' declared at 'D:/Projects/probation training/linux laptop ip_repo/ip_repo/edit_Azimuth_test_axi_v1_0.runs/synth_1/.Xil/Vivado-27468-Reza/realtime/div_gen_0_stub.vhdl:5' bound to instance 'div' of component 'div_gen_0' [D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/Azimuth.vhd:162]
+INFO: [Synth 8-638] synthesizing module 'div_gen_0' [D:/Projects/probation training/linux laptop ip_repo/ip_repo/edit_Azimuth_test_axi_v1_0.runs/synth_1/.Xil/Vivado-27468-Reza/realtime/div_gen_0_stub.vhdl:18]
+INFO: [Synth 8-3491] module 'cordic_1' declared at 'D:/Projects/probation training/linux laptop ip_repo/ip_repo/edit_Azimuth_test_axi_v1_0.runs/synth_1/.Xil/Vivado-27468-Reza/realtime/cordic_1_stub.vhdl:5' bound to instance 'ArcTan' of component 'cordic_1' [D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/Azimuth.vhd:173]
+INFO: [Synth 8-638] synthesizing module 'cordic_1' [D:/Projects/probation training/linux laptop ip_repo/ip_repo/edit_Azimuth_test_axi_v1_0.runs/synth_1/.Xil/Vivado-27468-Reza/realtime/cordic_1_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'cordic_sqrt' declared at 'D:/Projects/probation training/linux laptop ip_repo/ip_repo/edit_Azimuth_test_axi_v1_0.runs/synth_1/.Xil/Vivado-27468-Reza/realtime/cordic_sqrt_stub.vhdl:5' bound to instance 'sqrt' of component 'cordic_sqrt' [D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/Azimuth.vhd:182]
+INFO: [Synth 8-638] synthesizing module 'cordic_sqrt' [D:/Projects/probation training/linux laptop ip_repo/ip_repo/edit_Azimuth_test_axi_v1_0.runs/synth_1/.Xil/Vivado-27468-Reza/realtime/cordic_sqrt_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'mult_gen_0' declared at 'D:/Projects/probation training/linux laptop ip_repo/ip_repo/edit_Azimuth_test_axi_v1_0.runs/synth_1/.Xil/Vivado-27468-Reza/realtime/mult_gen_0_stub.vhdl:5' bound to instance 'mult_10bit' of component 'mult_gen_0' [D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/Azimuth.vhd:193]
+INFO: [Synth 8-638] synthesizing module 'mult_gen_0' [D:/Projects/probation training/linux laptop ip_repo/ip_repo/edit_Azimuth_test_axi_v1_0.runs/synth_1/.Xil/Vivado-27468-Reza/realtime/mult_gen_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'mult_gen_1' declared at 'D:/Projects/probation training/linux laptop ip_repo/ip_repo/edit_Azimuth_test_axi_v1_0.runs/synth_1/.Xil/Vivado-27468-Reza/realtime/mult_gen_1_stub.vhdl:5' bound to instance 'mult_2_bir' of component 'mult_gen_1' [D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/Azimuth.vhd:201]
+INFO: [Synth 8-638] synthesizing module 'mult_gen_1' [D:/Projects/probation training/linux laptop ip_repo/ip_repo/edit_Azimuth_test_axi_v1_0.runs/synth_1/.Xil/Vivado-27468-Reza/realtime/mult_gen_1_stub.vhdl:15]
+WARNING: [Synth 8-6014] Unused sequential element atan_out_reg was removed.  [D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/Azimuth.vhd:336]
+WARNING: [Synth 8-6014] Unused sequential element cos_Lcos_G_2_reg was removed.  [D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/Azimuth.vhd:342]
+INFO: [Synth 8-256] done synthesizing module 'Azimuth' (1#1) [D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/Azimuth.vhd:20]
+WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/hdl/Azimuth_test_axi_v1_0_S00_AXI.vhd:238]
+INFO: [Synth 8-256] done synthesizing module 'Azimuth_test_axi_v1_0_S00_AXI' (2#1) [D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/hdl/Azimuth_test_axi_v1_0_S00_AXI.vhd:88]
+INFO: [Synth 8-256] done synthesizing module 'Azimuth_test_axi_v1_0' (3#1) [D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/hdl/Azimuth_test_axi_v1_0.vhd:51]
+WARNING: [Synth 8-3331] design Azimuth has unconnected port LOCKED
+WARNING: [Synth 8-3331] design Azimuth_test_axi_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design Azimuth_test_axi_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design Azimuth_test_axi_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design Azimuth_test_axi_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design Azimuth_test_axi_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design Azimuth_test_axi_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 524.738 ; gain = 151.152
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 524.738 ; gain = 151.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 524.738 ; gain = 151.152
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/cordic_0/cordic_0/cordic_0_in_context.xdc] for cell 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/sin_cos'
+Finished Parsing XDC File [d:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/cordic_0/cordic_0/cordic_0_in_context.xdc] for cell 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/sin_cos'
+Parsing XDC File [d:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/div_gen_0/div_gen_0/div_gen_0_in_context.xdc] for cell 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/div'
+Finished Parsing XDC File [d:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/div_gen_0/div_gen_0/div_gen_0_in_context.xdc] for cell 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/div'
+Parsing XDC File [d:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/cordic_1/cordic_1/cordic_1_in_context.xdc] for cell 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/ArcTan'
+Finished Parsing XDC File [d:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/cordic_1/cordic_1/cordic_1_in_context.xdc] for cell 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/ArcTan'
+Parsing XDC File [d:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/cordic_sqrt/cordic_sqrt/cordic_sqrt_in_context.xdc] for cell 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/sqrt'
+Finished Parsing XDC File [d:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/cordic_sqrt/cordic_sqrt/cordic_sqrt_in_context.xdc] for cell 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/sqrt'
+Parsing XDC File [d:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/mult_10bit'
+Finished Parsing XDC File [d:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/mult_10bit'
+Parsing XDC File [d:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/mult_gen_1/mult_gen_1/mult_gen_1_in_context.xdc] for cell 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/mult_2_bir'
+Finished Parsing XDC File [d:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/mult_gen_1/mult_gen_1/mult_gen_1_in_context.xdc] for cell 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/mult_2_bir'
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 881.656 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 881.656 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 881.656 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 881.656 ; gain = 508.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 881.656 ; gain = 508.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/sin_cos. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/div. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/ArcTan. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/sqrt. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/mult_10bit. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/mult_2_bir. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 881.656 ; gain = 508.070
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'Bmult_1_reg[19:0]' into 'Amult_1_reg[19:0]' [D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/Azimuth.vhd:205]
+INFO: [Synth 8-4471] merging register 's_axis_dividend_tvalid_reg' into 's_axis_divisor_tvalid_reg' [D:/Projects/probation training/linux laptop ip_repo/ip_repo/Azimuth_test_axi_1.0/src/Azimuth.vhd:167]
+INFO: [Synth 8-5544] ROM "s_axis_phase_tvalid" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "s_axis_divisor_tvalid" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "s_axis_dividend_tdata" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "s_axis_cartesian_tvalid_sqrt" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 881.656 ; gain = 508.070
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     40 Bit       Adders := 1     
+	   2 Input     20 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               32 Bit    Registers := 4     
+	               20 Bit    Registers := 3     
+	               16 Bit    Registers := 3     
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 9     
+	                9 Bit    Registers := 1     
+	                4 Bit    Registers := 4     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 11    
++---Muxes : 
+	   3 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 3     
+	   4 Input     32 Bit        Muxes := 3     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 10    
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 6     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 36    
+	   3 Input      1 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Azimuth 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     40 Bit       Adders := 1     
+	   2 Input     20 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               32 Bit    Registers := 1     
+	               20 Bit    Registers := 3     
+	               16 Bit    Registers := 3     
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 9     
+	                9 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   3 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 10    
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 6     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 31    
+	   3 Input      1 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 1     
+Module Azimuth_test_axi_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 3     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   4 Input     32 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5544] ROM "Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_dividend_tdata" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-3331] design Azimuth_test_axi_v1_0 has unconnected port s00_axi_awprot[2]
+WARNING: [Synth 8-3331] design Azimuth_test_axi_v1_0 has unconnected port s00_axi_awprot[1]
+WARNING: [Synth 8-3331] design Azimuth_test_axi_v1_0 has unconnected port s00_axi_awprot[0]
+WARNING: [Synth 8-3331] design Azimuth_test_axi_v1_0 has unconnected port s00_axi_arprot[2]
+WARNING: [Synth 8-3331] design Azimuth_test_axi_v1_0 has unconnected port s00_axi_arprot[1]
+WARNING: [Synth 8-3331] design Azimuth_test_axi_v1_0 has unconnected port s00_axi_arprot[0]
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_dividend_tdata_reg[10]' (FDRE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_divisor_tdata_reg[10]'
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_dividend_tdata_reg[11]' (FDRE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_divisor_tdata_reg[10]'
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_dividend_tdata_reg[12]' (FDRE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_divisor_tdata_reg[10]'
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_dividend_tdata_reg[13]' (FDRE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_divisor_tdata_reg[10]'
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_dividend_tdata_reg[14]' (FDRE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_divisor_tdata_reg[10]'
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_dividend_tdata_reg[15]' (FDRE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_divisor_tdata_reg[10]'
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_divisor_tdata_reg[10]' (FDRE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_divisor_tdata_reg[11]'
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_divisor_tdata_reg[11]' (FDRE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_divisor_tdata_reg[12]'
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_divisor_tdata_reg[12]' (FDRE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_divisor_tdata_reg[13]'
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_divisor_tdata_reg[13]' (FDRE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_divisor_tdata_reg[14]'
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_divisor_tdata_reg[14]' (FDRE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_divisor_tdata_reg[15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_divisor_tdata_reg[15] )
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_sqrt_reg[10]' (FDE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_sqrt_reg[11]'
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_sqrt_reg[11]' (FDE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_sqrt_reg[12]'
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_sqrt_reg[12]' (FDE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_sqrt_reg[13]'
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_sqrt_reg[13]' (FDE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_sqrt_reg[14]'
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_sqrt_reg[14]' (FDE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_sqrt_reg[15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_sqrt_reg[15] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tvalid_sqrt_reg )
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_reg[10]' (FDRE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_reg[11]'
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_reg[11]' (FDRE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_reg[12]'
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_reg[12]' (FDRE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_reg[13]'
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_reg[13]' (FDRE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_reg[14]'
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_reg[14]' (FDRE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_reg[15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_reg[15] )
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_reg[26]' (FDRE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_reg[27]'
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_reg[27]' (FDRE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_reg[28]'
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_reg[28]' (FDRE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_reg[29]'
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_reg[29]' (FDRE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_reg[30]'
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_reg[30]' (FDRE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Azimuth_test_axi_v1_0_S00_AXI_inst/Azimuth_0/s_axis_cartesian_tdata_reg[31] )
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Azimuth_test_axi_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'Azimuth_test_axi_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'Azimuth_test_axi_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Azimuth_test_axi_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 881.656 ; gain = 508.070
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 881.656 ; gain = 508.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 881.656 ; gain = 508.070
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 900.047 ; gain = 526.461
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 900.047 ; gain = 526.461
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 900.047 ; gain = 526.461
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 900.047 ; gain = 526.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 900.047 ; gain = 526.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 900.047 ; gain = 526.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 900.047 ; gain = 526.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |cordic_0      |         1|
+|2     |div_gen_0     |         1|
+|3     |cordic_1      |         1|
+|4     |cordic_sqrt   |         1|
+|5     |mult_gen_0    |         1|
+|6     |mult_gen_1    |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-------------------+------+
+|      |Cell               |Count |
++------+-------------------+------+
+|1     |cordic_0_bbox_0    |     1|
+|2     |cordic_1_bbox_2    |     1|
+|3     |cordic_sqrt_bbox_3 |     1|
+|4     |div_gen_0_bbox_1   |     1|
+|5     |mult_gen_0_bbox_4  |     1|
+|6     |mult_gen_1_bbox_5  |     1|
+|7     |BUFG               |     1|
+|8     |CARRY4             |    18|
+|9     |LUT1               |    61|
+|10    |LUT2               |    14|
+|11    |LUT3               |    15|
+|12    |LUT4               |    44|
+|13    |LUT5               |    16|
+|14    |LUT6               |    42|
+|15    |MUXF7              |     4|
+|16    |FDRE               |   334|
+|17    |FDSE               |     3|
+|18    |IBUF               |    47|
+|19    |OBUF               |    41|
++------+-------------------+------+
+
+Report Instance Areas: 
++------+-------------------------------------+------------------------------+------+
+|      |Instance                             |Module                        |Cells |
++------+-------------------------------------+------------------------------+------+
+|1     |top                                  |                              |   800|
+|2     |  Azimuth_test_axi_v1_0_S00_AXI_inst |Azimuth_test_axi_v1_0_S00_AXI |   711|
+|3     |    Azimuth_0                        |Azimuth                       |   567|
++------+-------------------------------------+------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 900.047 ; gain = 526.461
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 900.047 ; gain = 169.543
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 900.047 ; gain = 526.461
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 22 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 901.824 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+85 Infos, 19 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 901.824 ; gain = 539.703
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 901.824 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/Projects/probation training/linux laptop ip_repo/ip_repo/edit_Azimuth_test_axi_v1_0.runs/synth_1/Azimuth_test_axi_v1_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Azimuth_test_axi_v1_0_utilization_synth.rpt -pb Azimuth_test_axi_v1_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Nov 16 23:52:24 2019...
